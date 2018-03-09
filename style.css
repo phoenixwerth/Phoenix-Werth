@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/04/22/09/water-3199387_1280.jpg)
+ 
+}
+
+#navbar{
+    background: white;
+    border: none;
+    border-bottom:gray 5px solid;
+    font-size: 25px;
+    align-content: center;
+    opacity: .8;
+   text-align: center;
+  
+  
+}
+
+#text{
+   
+    font-family: 'Lobster', cursive;
+}
+
+#title{
+
+    background-color: rgba(128, 128, 128, .4);    
+
+border-bottom: white 10px double;
+margin: auto;
+margin-top: 150px;
+text-align: center;
+}
+.name{
+    font-size: 7vw;
+    color: white;
+    font-family: 'Monoton', cursive;
+   
+}
+
+
+
+
+ 
+   
