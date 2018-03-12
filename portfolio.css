@@ -1,0 +1,60 @@
+body{
+    background-image: url(assets/images/portfolio.png);
+}
+
+
+#navbar{
+    background: white;
+    border: none;
+    border-bottom:gray 5px solid;
+    font-size: 25px;
+    align-content: center;
+    opacity: .8;
+   text-align: center;
+}
+
+#text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+#title{
+background-color: rgba(128, 128, 128, .9);    
+border-bottom: white 10px double;
+margin: auto;
+margin-top: 150px;
+text-align: center;
+}
+.container{
+    text-align: center;
+   margin: 10px;    
+}
+
+.title{
+    border-radius: 20px;
+    text-align: unset;
+    height: 50px;
+    border-bottom: 10px inset black;
+    font-family: 'Indie Flower', cursive;
+    
+    font-weight: bold;
+    
+}
+.projects{
+    color: black;
+    text-decoration: underline;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.col-md-6{
+    height: 300px;
+    border: white 5px double;
+    background-color: rgba(128, 128, 128, 0.301);
+  border-radius: 20px; 
+  
+  
+}
+ 
+.wrapper{
+    margin: 20px;
+}

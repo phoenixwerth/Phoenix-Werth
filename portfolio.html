@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/portfolio.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Monoton|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Monoton|Pacifico|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container.fluid">
+        <nav class="navbar navbar-default" id="navbar">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav" id="text">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <button id="randomButton" onclick="GetValue();" type="button" class="btn btn-danger btn-lg">Random Fact</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="title">
+                <h1>Portfolio</h1>
+            </div>
+            <!-- beginning rows of projects -->
+            <div class="row">
+                <div class="wrapper">
+                    <div class="col-md-6 col-xs-12">
+                        <h2 class="projects">Hangman game</h2>
+                     <a href="hangman.html">   <img src="assets/images/game.png" width="400px" height="200px"></a>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="col-md-6 col-xs-12">
+                        <h2 class="projects">Crystal Collector</h2>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- end of first row  -->
+            <div class="row">
+                <div class="wrapper">
+                    <div class="col-md-6 col-xs-12">
+                        <h2 class="projects">Hangman Hame</h2>
+                  
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="col-md-6 col-xs-12">
+                        <h2 class="projects">Crystal Collector</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- end of second row -->
+            <div class="row">
+                <div class="wrapper">
+                    <div class="col-md-6 col-xs-12">
+                            <h2 class="projects">Hangman game</h2>
+                        </div>
+                </div>
+                <div class="wrapper">
+                    <div class="col-md-6 col-xs-12">
+                        <h2 class="projects">Crystal Collector</h2>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <script>
+            function GetValue() {
+                var myarray = new Array("Cap’n Crunch’s full name is Horatio Magellan Crunch.", "Approximately 40,000 Americans are injured by toilets each year.", " Ketchup was sold in the 1830s as medicine.", "It actually takes 142.18 licks to reach the center of a Tootsie pop.", "It is impossible to sneeze with your eyes open.", "The US Treasury once considered producing doughnut-shaped coins!", "Most toilets flush in E flat.", "The most common name in the world is Mohammed.");
+                var random = myarray[Math.floor(Math.random() * myarray.length)];
+                alert(random);
+                document.getElementById("#randomButton").innerHTML = random;
+            }
+
+
+
+        </script>
+</body>
+
+</html>
