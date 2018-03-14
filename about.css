@@ -1,0 +1,19 @@
+body{
+    background-image: url(portfolio.png);
+}
+
+
+#navbar{
+    background: white;
+    border: none;
+    border-bottom:gray 5px solid;
+    font-size: 25px;
+    align-content: center;
+    opacity: .8;
+   text-align: center;
+}
+
+#text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
