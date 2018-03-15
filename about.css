@@ -1,5 +1,5 @@
 body{
-    background-image: url(portfolio.png);
+    background-image: url(pixel_weave.png);
 }
 
 
@@ -16,4 +16,58 @@ body{
 #text{
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
+}
+#about{
+   
+    text-align: center;
+    border-bottom: solid rgba(0, 0, 0, 0.438) 5px;
+    border-radius: 20px;
+   
+}
+.more{
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.425);
+}
+#profilepic{
+    text-align: center;
+    margin-top: 50px;
+}
+.img-circle{
+    border: double 5px gray;
+    box-shadow: gray 5px 5px 5px;
+}
+#skills{
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.575);
+    
+}
+#know{
+    text-align: center;
+    color:rgba(0, 0, 0, 0.575);
+    font-family:serif;
+   
+}
+#aboutTitle{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.575);
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+.content{
+    max-width: 700px;
+    margin-left: 310px;
+    margin-top: -30px;
+    
+   
+    
+}
+.words{
+    font-size: 20px;
+    line-height: 2;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

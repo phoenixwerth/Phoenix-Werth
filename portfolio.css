@@ -1,5 +1,5 @@
 body{
-    background-image: url(portfolio.png);
+    background-image: url(pixel_weave.png);
 }
 
 
@@ -33,16 +33,15 @@ text-align: center;
     border-radius: 20px;
     text-align: unset;
     height: 50px;
-    border-bottom: 10px inset black;
-    font-family: 'Indie Flower', cursive;
-    
+    border-bottom: 5px inset rgba(0, 0, 0, 0.575);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     
 }
 .projects{
     color: black;
-    text-decoration: underline;
-    font-family: 'Pacifico', cursive;
+    
+    font-family: 'Raleway', sans-serif;
 }
 
 
