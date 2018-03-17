@@ -2,6 +2,23 @@ body{
     background-image: url(pixel_weave.png);
 }
 
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px !important;
+    line-height: 1.3333333 !important;
+    border-radius: 6px !important;
+    margin-top: 5px !important;
+    font-size: small !important
+}
+.btn-danger {
+    color: #5d5b5b;
+    background-color: #5cc38a !important;
+    border-color: #969291 !important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #383838 !important;
+    font-size: 18px !important;
+}
+
 
 #navbar{
     background: white;
@@ -9,16 +26,22 @@ body{
     border-bottom:gray 5px solid;
     font-size: 25px;
     align-content: center;
-    opacity: .8;
+    opacity: .9;
    text-align: center;
 }
-
+.nav>li>a {
+    position: relative;
+    display: block;
+    margin-left:140px;
+}
+.btn{
+    margin-left: 110px;
+}
 #text{
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
 #about{
-   
     text-align: center;
     border-bottom: solid rgba(0, 0, 0, 0.438) 5px;
     border-radius: 20px;
