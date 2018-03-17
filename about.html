@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>About</title>
     <link rel="stylesheet" type="text/css" media="screen" href="about.css" />
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Monoton|Pacifico|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Patrick+Hand|Rock+Salt" rel="stylesheet">
@@ -13,30 +13,35 @@
 </head>
 
 <body>
-    <div id="wrapper" class="container.fluid">
-        <nav class="navbar navbar-default" id="navbar">
-            <div class="container-fluid">
-                <ul class="nav navbar-nav" id="text">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                    <li>
-                        <button id="randomButton" onclick="GetValue();" type="button" class="btn btn-danger btn-lg">Random Fact</button>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+       
+        <nav id="navbar" class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul  id="text" class="nav navbar-nav navbar-left">
+                        <li onclick="GetValue();" id="hey"><a href="#">Phoenix Werth</a></li>
+                    </ul>
+                    <ul  id="text" class="nav navbar-nav navbar-center">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    <ul  id="text" class="nav navbar-nav navbar-right">
+                        <li><a href="https://github.com/phoenixwerth"><img src="iconmonstr-github-1-24.png"></a></li>
+                        <li><a href="https://www.linkedin.com/in/phoenix-werth-242965152/"><img src="iconmonstr-linkedin-3-24.png"></a></li>
+                        <li><a href="https://stackoverflow.com/users/9180091/phoenix-werth"><img src="iconmonstr-stackoverflow-3-24.png"></a></li>
+                    </ul>
+                </div>
+            </nav>
+       
         <!-- end of nav bar -->
-        <div class="container">
+       <div class="container">
         <div class="row">
             <div id="about" class="col-md-6 col-md-push-3">
 
@@ -47,7 +52,7 @@
         <!-- beginning content with profile pic -->
         <div class="row">
             <div id="profilepic" class="col-md-12">
-                <img src="profilee.jpg" class="img-circle" alt="Cinque Terre" width="300px" height="300px;">
+                <img src="profilee.jpg"   class="img-circle" alt="Cinque Terre" width="300px" height="300px;">
             </div>
         </div>
         <!-- listing skills -->
@@ -142,7 +147,7 @@
             var myarray = new Array("Phoenix was born in Brighton Colorado on a warm night of April 17th", "Phoenix's favorite food is anything with hot sauce.", "Phoenix Werth is...... a basic millenial", "Phoenix believes in aliens", "Phoenix's greatest fear is the ocean hence the background image is water, the fear in the background image helps him stay alert and ready", "Phoenix was not born in Arizona", "If you ask Phoenix for something good to watch on Netflix you better have a few days to sit down and listen to the rant he will give you", "Maybe Phoenix is 19 years old maybe he is 24 or maybe he is 25 years old... the world my never know");
             var random = myarray[Math.floor(Math.random() * myarray.length)];
             alert(random);
-            document.getElementById("#randomButton").innerHTML = random;
+            document.getElementById("#hey").innerHTML = random;
         }
 
 
