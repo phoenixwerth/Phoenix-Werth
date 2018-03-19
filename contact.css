@@ -1,0 +1,19 @@
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+   
+}
+#navbar{
+    background: white;
+    border-bottom:gray 2px solid;
+    font-size: 20px;
+    opacity: .9;
+   
+}
+#text{
+    font-family: 'Raleway', sans-serif;
+}
+#text:hover{
+    font-size: 21px;
+}

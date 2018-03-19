@@ -2,6 +2,8 @@ body{
     background-image: url(pixel_weave.png);
 }
 
+
+
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
@@ -20,6 +22,7 @@ body{
 }
 #text:hover{
     font-size: 21px;
+   
 }
 
 #about{

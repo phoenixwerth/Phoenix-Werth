@@ -1,5 +1,5 @@
 body{
-    background-image: url(water.jpg) ;
+    background-image: url(grid-3230205_1920.jpg) ;
  background-repeat: no-repeat;
     
 
@@ -24,8 +24,8 @@ body{
     font-size: 21px;
 }
 #title{
-background-color: rgba(128, 128, 128, .4);    
-border-bottom: white 10px double;
+background-color: rgba(128, 128, 128, 0.041);    
+border-bottom: rgb(80, 79, 79) 10px double;
 margin: auto;
 margin-top: 150px;
 text-align: center;
@@ -39,7 +39,7 @@ text-align: center;
 
 .name{
     font-size: 7vw;
-    color: white;
+    color: rgb(78, 78, 78);
     font-family: 'Cinzel', serif;
    
 }
