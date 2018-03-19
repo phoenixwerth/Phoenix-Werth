@@ -44,7 +44,7 @@ body{
     box-shadow: gray 5px 5px 5px;
 }
 #skills{
-    margin-top: 100px;
+    margin-top: 15px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
@@ -55,6 +55,7 @@ body{
     text-align: center;
     color:rgba(0, 0, 0, 0.575);
     font-family:serif;
+    margin-top: 20px;
    
 }
 #aboutTitle{
@@ -62,6 +63,7 @@ body{
     margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
+    margin-top: 20px;
 
 }
 
@@ -71,4 +73,86 @@ body{
     line-height: 2;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
+}
+.footer {
+	background: rgba(121, 120, 120, 0.514);
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+    width: 100%;
+
+
+
+}
+.wrapper{
+    background-color: white;
+    height: auto;
+    width: auto;
+    border-radius: 30px;
+    margin-top: 100px;
+    border: 1px solid rgb(139, 139, 139);
+}
+.wrapperr{
+    background-color: white;
+    height: auto;
+    width: auto;
+    border-radius: 30px;
+    margin-top: 70px;
+    border: 1px solid rgb(131, 131, 131);
+}
+
+.footer h3 {
+	border-bottom: 1px solid rgb(87, 87, 87);
+	color: rgb(58, 57, 57);
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+    text-transform: uppercase;
+    
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+    color: rgb(145, 143, 143);
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: rgb(75, 75, 75);
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+
+.footer-bottom {
+	background: #E3E3E3;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
+.footcontact{
+    color: black !important;
+    font-family: 'Raleway', sans-serif;
+}
+#container{
+    margin-bottom: 0px;
+    margin-top: 150px;
 }

@@ -3,8 +3,11 @@
 <head>
     <title>Contact</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Monoton|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Monoton|Pacifico|Raleway" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link href='contact.css' rel='stylesheet' type='text/css'>
 </head>
@@ -61,72 +64,161 @@
 
     <div class="container">
 
-            <div class="row">
+        <div class="row">
 
-                <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-md-12">
 
-                    <h1>Contact Me</h1>
+                <h1 id="contactme">Contact Me</h1>
 
-<div class="col-md-8">
-            <form id="contact-form" method="post" action="https://formspree.io/phoenixwerth@gmail.com" role="form">
+                <div class="col-md-12">
+                    <form id="contact-form" method="post" action="https://formspree.io/phoenixwerth@gmail.com" role="form">
 
-                    <div class="messages"></div>
-                
-                    <div class="controls">
-                
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="form_name">Firstname *</label>
-                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                                    <div class="help-block with-errors"></div>
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Firstname *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required"
+                                            data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Lastname *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required"
+                                            data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="form_lastname">Lastname *</label>
-                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                                    <div class="help-block with-errors"></div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required"
+                                            data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone">Phone</label>
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_message">Message *</label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"
+                                            data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted">
+                                        <strong>*</strong> These fields are required. </p>
+
+
+
+
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="form_email">Email *</label>
-                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="form_phone">Phone</label>
-                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="form_message">Message *</label>
-                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <input type="submit" class="btn btn-success btn-send" value="Send message">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p class="text-muted"><strong>*</strong> These fields are required. </p>
-                            </div>
-                        </div>
-                    </div>
-                
-                </form>
+
+                    </form>
+
+
+                </div>
             </div>
 
-    </body>
+        </div>
+
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="footer" id="footer">
+            <div id="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3> Contact </h3>
+                        <ul>
+                            <li class="footcontact">
+                                Phoenix Werth
+                            </li>
+                            <li class="footcontact">
+                                Phone:
+                                <i>(720)-234-5757</i>
+                            </li>
+                            <li class="footcontact">
+                                E-mail:
+                                <i>Phoenixwerth@gmail.com</i>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div id="footnav" class="col-md-4">
+                        <h3> Navigation </h3>
+                        <ul>
+                            <li class="footcontact">
+                                <a href="index.html"> Home </a>
+                            </li>
+                            <li class="footcontact">
+                                <a href="portfolio.html"> Portfolio </a>
+                            </li>
+                            <li class="footcontact">
+                                <a href="about.html"> About </a>
+                            </li>
+                            <li class="footcontact">
+                                <a href="contact.html"> Contact </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3> Follow me on Social Media </h3>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/phoenixwerth">
+                                    <img src="iconmonstr-github-1-24.png">
+                                </a>
+                                <a href="https://www.linkedin.com/in/phoenix-werth-242965152/">
+                                    <img src="iconmonstr-linkedin-3-24.png">
+                                </a>
+                                <a href="https://stackoverflow.com/users/9180091/phoenix-werth">
+                                    <img src="iconmonstr-stackoverflow-3-24.png">
+                                </a>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </div>
+        <!--/.footer-->
+
+        </div>
+    </footer>
+
+</body>
+
 </html>

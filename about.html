@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>About</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" type="text/css" media="screen" href="about.css" />
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Monoton|Pacifico|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Patrick+Hand|Rock+Salt" rel="stylesheet">
@@ -15,35 +15,57 @@
 </head>
 
 <body>
-       
-        <nav id="navbar" class="navbar navbar-default" role="navigation">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul  id="text" class="nav navbar-nav navbar-left">
-                        <li onclick="GetValue();" id="hey"><a href="#">Phoenix Werth</a></li>
-                    </ul>
-                    <ul  id="text" class="nav navbar-nav navbar-center">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    <ul  id="text" class="nav navbar-nav navbar-right">
-                        <li><a href="https://github.com/phoenixwerth"><img src="iconmonstr-github-1-24.png"></a></li>
-                        <li><a href="https://www.linkedin.com/in/phoenix-werth-242965152/"><img src="iconmonstr-linkedin-3-24.png"></a></li>
-                        <li><a href="https://stackoverflow.com/users/9180091/phoenix-werth"><img src="iconmonstr-stackoverflow-3-24.png"></a></li>
-                    </ul>
-                </div>
-            </nav>
-       
-        <!-- end of nav bar -->
-       <div class="container">
+
+    <nav id="navbar" class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul id="text" class="nav navbar-nav navbar-left">
+                <li onclick="GetValue();" id="hey">
+                    <a href="#">Phoenix Werth</a>
+                </li>
+            </ul>
+            <ul id="text" class="nav navbar-nav navbar-center">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <ul id="text" class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="https://github.com/phoenixwerth">
+                        <img src="iconmonstr-github-1-24.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/phoenix-werth-242965152/">
+                        <img src="iconmonstr-linkedin-3-24.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://stackoverflow.com/users/9180091/phoenix-werth">
+                        <img src="iconmonstr-stackoverflow-3-24.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- end of nav bar -->
+    <div class="container">
         <div class="row">
             <div id="about" class="col-md-6 col-md-push-3">
 
@@ -54,72 +76,145 @@
         <!-- beginning content with profile pic -->
         <div class="row">
             <div id="profilepic" class="col-md-12">
-                <img src="profilee.jpg"   class="img-circle" alt="Cinque Terre" width="300px" height="300px;">
+                <img src="profilee.jpg" class="img-circle" alt="Cinque Terre" width="300px" height="300px;">
             </div>
         </div>
         <!-- listing skills -->
-        <div class="row">
-            <div id="skills" class="col-md-12">
-                <h1>Skills</h1>
+        <div class="wrapperr">
+            <div class="row">
+                <div id="skills" class="col-md-12">
+                    <h1>Skills</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div id="know" class="col-md-4 ">
+                    <h2>•HTML5
+                        <br>
+                        <br> •Responsive Design
+                        <br>
+                        <br> •CSS3
+                        <br>
+                        <br>•Bootstrap </h2>
+                </div>
+                <div id="know" class="col-md-4">
+                    <h2> •Javascript/Js Frameworks
+                        <br>
+                        <br> •Jquery
+                        <br>
+                        <br> •AJAX
+                        <br>
+                        <br>•JSON APIs
+                    </h2>
+                </div>
+                <div id="know" class="col-md-4 ">
+                    <h2>•Version Control/GIT
+                        <br>
+                        <br> •Light PHP
+                        <br>
+                        <br> •FireBase
+                        <br>
+                        <br> •Node.js</h2>
+                </div>
+            </div>
+            <!-- Making the about me title -->
+        </div>
+        <div class="wrapper">
+            <div class="row">
+                <div id="aboutTitle" class="col-md-12">
+                    <h1>About Me</h1>
+                </div>
+            </div>
+            <!-- Making the content about me -->
+            <div class="row">
+                <div class="col-md-8 col-md-push-2">
+                    <p class="words">
+                        My name is Phoenix Werth, I am a Web Developer/Designer. I attended the University of Denver's Full Stack Web Development
+                        Boot Camp. I have a deep passion for code, being able to articulate my thoughts into lines of code
+                        is what captivates me to Web Development. The thought of being able to create nothing out of something
+                        is something that has intrigued me my whole life. I am creative, dependable, honest, posses a willingness
+                        to learn new concepts and execute them in a profficient manner.
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div id="know" class="col-md-4 ">
-                <h2>•HTML5
-                    <br>
-                    <br> •Responsive Design
-                    <br>
-                    <br> •CSS3
-                    <br>
-                    <br>•Bootstrap </h2>
-            </div>
-            <div id="know" class="col-md-4">
-                <h2> •Javascript/Js Frameworks
-                    <br>
-                    <br> •Jquery
-                    <br>
-                    <br> •AJAX
-                    <br>
-                    <br>•JSON APIs
-                </h2>
-            </div>
-            <div id="know" class="col-md-4 ">
-                <h2>•Version Control/GIT
-                    <br>
-                    <br> •Light PHP
-                    <br>
-                    <br> •FireBase
-                    <br>
-                    <br> •Node.js</h2>
-            </div>
-<!-- Making the about me title -->
-        </div>
-        <div class="row">
-            <div id="aboutTitle" class="col-md-12">
-                <h1>About Me</h1>
-            </div>
-        </div>
-        <!-- Making the content about me -->
-<div class="row">
-    <div class="col-md-8 col-md-push-2">
-        <p class="words">
-            My name is Phoenix Werth, I am a Web Developer/Designer. I attended the University of Denver's Full Stack Web Development Boot Camp. I have a deep passion for code, being able to articulate my thoughts into lines of code is what captivates me to Web Development. The thought of being able to create nothing out of something is something that has intrigued me my whole life. I am creative, dependable, honest, posses a willingness to learn new concepts and execute them in a profficient manner. 
-        </p>
+
+
+
+
+
+
+
+
+
     </div>
-</div>
-
-
-
-
-
-
-
-
-
 
     </div>
+    <footer>
+        <div class="footer" id="footer">
+            <div id="container" class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3> Contact </h3>
+                        <ul>
+                            <li class="footcontact">
+                                Phoenix Werth
+                            </li>
+                            <li class="footcontact">
+                                Phone:
+                                <i>(720)-234-5757</i>
+                            </li>
+                            <li class="footcontact">
+                                E-mail:
+                                <i>Phoenixwerth@gmail.com</i>
+                            </li>
 
-</div>
+                        </ul>
+                    </div>
+                    <div id="footnav" class="col-md-4">
+                        <h3> Navigation </h3>
+                        <ul>
+                            <li class="footcontact">
+                                <a href="index.html"> Home </a>
+                            </li>
+                            <li class="footcontact">
+                                <a href="portfolio.html"> Portfolio </a>
+                            </li>
+                            <li class="footcontact">
+                                <a href="about.html"> About </a>
+                            </li>
+                            <li class="footcontact">
+                                <a href="contact.html"> Contact </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3> Follow me on Social Media </h3>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/phoenixwerth">
+                                    <img src="iconmonstr-github-1-24.png">
+                                </a>
+                                <a href="https://www.linkedin.com/in/phoenix-werth-242965152/">
+                                    <img src="iconmonstr-linkedin-3-24.png">
+                                </a>
+                                <a href="https://stackoverflow.com/users/9180091/phoenix-werth">
+                                    <img src="iconmonstr-stackoverflow-3-24.png">
+                                </a>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.container-->
+        </div>
+        <!--/.footer-->
+
+        </div>
+    </footer>
 
 
 
@@ -143,7 +238,7 @@
 
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script>
