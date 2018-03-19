@@ -1,0 +1,13 @@
+body{
+    background-image: url(subtle_surface.png);
+}
+#gifs{
+width: 200px;
+
+}
+.gif{
+   text-align: center;
+}
+.container{
+    text-align: center;
+}
