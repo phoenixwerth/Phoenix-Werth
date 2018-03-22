@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bujumbura Data</title>
+</head>
+<body>
+  <!-- Retrieved data will be dumped here -->
+  <div class="city"></div>
+  <div class="temp"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    // This is our API key
+    var APIKey = "166a433c57516f51dfab1f7edaed8413";
+    // Here we are building the URL we need to query the database
+    var queryURL = queryURL = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + inputLocation + "i&units=imperial&appid=" + APIKey;
+    // Here we run our AJAX call to the OpenWeatherMap API
+    $.ajax({
+      url: queryURL,
+      method: "GET"
+    })
+      // We store all of the retrieved data inside of an object called "response"
+      .then(function(response) {
+       
+        // moment.unix(yourUnixEpochTime).format('dddd, MMMM Do, YYYY h:mm:ss A')
+        console.log(queryURL);
+        console.log(response);
+        
+        $(".city").html("<h1>" + response.city.name + " Forecast Details</h1>");
+        $(".temp").html("<h1>" +  " temperature </h1>" + response.list[0].temp.max);
+        
+        var list = response.list
+
+        for (var i=0; i<list.length; i++){
+            console.log(list[i].temp.max);
+    
+            $(".temp").append(list[i].temp.max);
+        }
+      });
+  </script>
+</body>
+</html>
