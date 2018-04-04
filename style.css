@@ -4,12 +4,7 @@ body{
     
 
 }
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-   
-}
+
 #navbar{
     background: white;
     border-bottom:gray 2px solid;
@@ -107,6 +102,10 @@ text-align: center;
 #container{
     margin-bottom: 0px;
     margin-top: 200px;
+}
+
+.navbar-collapse collapse{
+	
 }
 
 

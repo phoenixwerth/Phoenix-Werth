@@ -1,12 +1,7 @@
 body{
     background-image: url(pixel_weave.png);
 }
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-   
-}
+
 #navbar{
     background: white;
     border-bottom:gray 2px solid;
